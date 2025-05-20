@@ -1,0 +1,11 @@
+[
+  {
+    "question": "Which is the number four?",
+    "answers": [
+      { "text": "4", "isCorrect": true },
+      { "text": "5", "isCorrect": false },
+      { "text": "3", "isCorrect": false },
+      { "text": "Red", "isCorrect": false }
+    ]
+  }
+]
