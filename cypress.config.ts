@@ -8,14 +8,14 @@ export default defineConfig({
       bundler: 'vite',
       viteConfig: customViteConfig,
     },
-    specPattern: "cypress/component/**/*.cy.{js,ts,jsx,tsx}",
+    specPattern: "cypress/component/*.cy.{js,ts,jsx,tsx}",
     supportFile: false,
   },
 
   e2e: {
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'http://localhost:3001',
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      
     },
     specPattern: "cypress/e2e/**/*.cy.{js,ts,jsx,tsx}",
     supportFile: false,
